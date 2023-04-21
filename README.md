@@ -1,2 +1,7 @@
 # digital_image
-每个文件夹里的main是主程序，是实验报告里需要的程序
+本仓库内容仅供学术参考
+
+解释：
+    每个experiment实验文件夹都有名为main.py的程序
+    main.py为对应实验的程序
+
