@@ -107,7 +107,7 @@ r1 = r[128:255, 85:169]
 # 计算该区域中的彩色点的平均向量a的红色分量
 r1_u = np.mean(r1)
 # 计算样本点红色分量的标准差
-r1_d = 0.0
+r1_d = 1.25
 for i in range(r1.shape[0]):
     for j in range(r1.shape[1]):
         r1_d = r1_d + (r1[i, j] - r1_u) * (r1[i, j] - r1_u)
