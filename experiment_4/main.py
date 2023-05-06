@@ -20,7 +20,7 @@ def correl2d(img, window):
 
 
 # img 为原始图像
-img = io.imread('I3.jpg', as_gray=True)
+img = io.imread('I3.tif', as_gray=True)
 # img_laplace 为原始图像经过拉普拉斯变换后的结果
 window = np.array([[-1, -1, -1], [-1, 8, -1], [-1, -1, -1]])
 img_laplace = correl2d(img, window)
