@@ -11,7 +11,7 @@ plt.axis('off') # 不显示坐标轴
 plt.imshow(image)#显示RGB彩色图像
 plt.title('RGB图像')
 #第二个子图
-axis = fig.add_subplot(222) 
+axis = fig.add_subplot(222)
 imageR = image[:, :, 0]
 plt.axis('off') 
 plt.imshow(imageR, cmap='gray')#显示R通道图像
